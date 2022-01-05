@@ -10,11 +10,12 @@ const sum = (acc, cur) => {
 };
 
 Array.prototype.reduce = function(fun, init) {
-    for(let i = 0; i < Array.length; i++ ) {
-        init = fun(Array[i], init);
+    for(let i = 0; i < this.length; i++ ) {
+        init = fun(this[i], init);
     }
     return init
 };
+
 
 
 const arr1 = [0, 1, 2, 3, 4];
