@@ -5,10 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Homepage!</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
-    Build your website here!
+    <nav id = "main-nav">
+        <ul id = "nav-items">
+            <li id = "first-nav-item" class = "nav-item"><a href="index.html">Home</a></li>
+            <li class = "nav-item"><a href="latin.html">Latin</a></li>
+            <li class = "nav-item"><a href="blender.html">Blender</a></li>
+            <li class = "nav-item"><a href="">Placeholder</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <div class="card" id = "homepage-card">
+        <h1 class = "centering"><u>Home</u></h1>
+        <div class="flex-container">
+            <div class="flex1">
+                <img src="images/viet_bridge.jpg" id = "viet-bridge" alt="">
+            </div>
+            <div class="flex1">
+                <h2 id = "home-h2">Welcome to my website!</h2>
+                <br>
+                <p class = "home-p" id = "home-p1">I made this for the Dev bootcamp during week 1. 
+                    I decided to make everything from scratch and used nothing from previous projects or bootstrap or other libraries
+                    to have some practice with HTML/CSS before hitting React (tomorrow?).
+                </p>
+                <br>
+                <p class = "home-p" id = "home-p2"> The content is a bit random: the first page is Latin as the first thing I thought of when I saw the table requirement was
+                    the huge number of Latin tables I committed to memory when I studied it; the second is some images of some work I've done in Blender as a hobby recenetly to handle the image 
+                    requirement; the fourth is UNDECIDED as of yet!
+                </p>
+                <br>
+                <p class = "home-p" id = "home-p3"> Image on the left is a photo of me on a bridge near Sa'pa in Vietnam. This was the last time I travelled (except to get to uni) - 
+                    looking forward to travelling again sometime in the (hopefully) not so distant future!
+                </p>
+            </div>
+        </div>
+        
+    </div>
+
 </body>
 
 </html>

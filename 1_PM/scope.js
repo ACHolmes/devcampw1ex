@@ -11,12 +11,12 @@
  *        console logs.
  */
 
-function x() {
-  var a;
+const x = () => {
+  var a = 2;
   console.log(a);
 }
 
-function y() {
+const y = () => {
   var a = 2;
   console.log(a);
   x();

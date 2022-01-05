@@ -5,11 +5,17 @@ const assert = require('assert')
  * returns the sum of its values. e.g. [0,4,3,6,9].reduce(sum, 0) === 22
  */
 
-const sum = (acc, cur) => {};
+const sum = (acc, cur) => {
+    return acc + cur
+};
 
 Array.prototype.reduce = function(fun, init) {
-
+    for(let i = 0; i < Array.length; i++ ) {
+        init = fun(Array[i], init);
+    }
+    return init
 };
+
 
 const arr1 = [0, 1, 2, 3, 4];
 const arr2 = [3, -4, 134, 0.5, 7];

@@ -101,12 +101,16 @@ dont hard code solutions. */
 
 // Implement the function usersByPet to return a list of user objects filtered by cat or dog.
 const usersByPet = pet => {
+  return database.users.filter((user)=>user.favPet === pet)
 }
 console.log(usersByPet('dog'))
 console.log(usersByPet('cat'))
 
 // Implement the function collegeLookup to return the name and color of a user's college.
 const collegeLookup = user => {
+  const sorted = database.users.filter((item) => item.firstName === user);
+  const collegeID = sorted[0].collegeId;
+  return sorted[0].firstName, database.college.filter((col) => col.id === collegeID)[0].color
 }
 console.log(collegeLookup('Charles'))
 console.log(collegeLookup('Daniela'))
