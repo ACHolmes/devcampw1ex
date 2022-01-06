@@ -1,5 +1,5 @@
 import React from 'react'
-import { TodoItem, TodoList, Body, TodoH2, Card, AddTodo} from './styles'
+import MainPage from './containers/MainPage'
 // import COMPONENT from 'FILEPATH'
 
 
@@ -19,13 +19,8 @@ const todoItems = tasks.map((task) =>
     <ul>
       {todoItems}
     </ul>
-*/
 
-
-const App = () => (
-  <Body>
-    Beep boop. Hi there, I&apos;m your personal assistant :D
-    <Card>
+    /**<Card>
       <TodoList>
         <TodoH2>Your Todo List</TodoH2>
         <TodoItem>test text that needs to be really long to see if I can break stuff</TodoItem>
@@ -38,9 +33,11 @@ const App = () => (
       </AddTodo>
     </Card>
 
-    
-  </Body>
+    */
 
+
+const App = () => (
+    <MainPage>test</MainPage>  
 )
 
 export default App
