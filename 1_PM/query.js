@@ -116,13 +116,12 @@ console.log(collegeLookup('Charles'))
 console.log(collegeLookup('Daniela'))
 
 // define oppositesAttract as a list of friend objects whose favorite pets are different.
-const oppositesAttract = _______
+const oppositesAttract = database.friends.filter((pair) => (database.users.filter((user) => user.id === pair.id1))[0].favPet != (database.users.filter((user) => user.id === pair.id2))[0].favPet)
 console.log(oppositesAttract)
 
 // define local as a list of users who live in the same state as they go to school.
-const local = _______
-console.log(local)
+const local = database.users.filter((user) => user.state === database.college.filter((col) => col.id === 0)[0].state)
 
 // define collegeFriends as a list of friend objects that go to the same college
-const collegeFriends = _______
+const collegeFriends = database.friends.filter((pair) => database.users.filter((user) => user.id === pair.id1)[0].collegeId === database.users.filter((user) => user.id === pair.id2)[0].collegeId)
 console.log(collegeFriends)
