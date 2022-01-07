@@ -1,6 +1,13 @@
 import React from 'react'
+import LandingPage from './containers/LandingPage'
 import MainPage from './containers/MainPage'
 // import COMPONENT from 'FILEPATH'
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+  useParams
+} from "react-router-dom";
 
 
 /**
@@ -37,7 +44,16 @@ const todoItems = tasks.map((task) =>
 
 
 const App = () => (
-    <MainPage>test</MainPage>  
+  <Switch>
+    <Route path="/main">
+      <MainPage>test</MainPage>  
+    </Route>
+    <Route path="/">
+      <LandingPage/>
+    </Route>
+  </Switch>
+
+
 )
 
 export default App

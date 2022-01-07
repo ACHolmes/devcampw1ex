@@ -6,7 +6,6 @@ export const Body = styled.body`
   height: 100vh;
 `
 
-
 export const Card = styled.div`
 width: 50%;
 border: 1px solid lightgray;

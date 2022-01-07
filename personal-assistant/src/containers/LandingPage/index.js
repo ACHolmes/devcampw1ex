@@ -1,16 +1,15 @@
 import React from 'react'
-import TodoListComponent from '../../components/TodoListComponent'
 import CardComponent from  '../../components/CardComponent'
 import { Body, Card } from './styles'
 
-const MainPage = () => {
+const LandingPage = () => {
   return (
   <Body>
     <Card>
-      <TodoListComponent/>
-  </Card>
+      <div>words</div>
+    </Card>
   </Body>
   )
 }
 
-export default MainPage
+export default LandingPage
