@@ -12,7 +12,7 @@ export const AddTodo = styled.div`
   }
   input{
     font-size: 28px;
-    width: 75%%;
+    width: 75%;
   }
   button{
     font-size: 28px;
