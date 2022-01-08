@@ -1,0 +1,181 @@
+body{
+    background-color: #eee;
+}
+.lat-table{
+    width: 50%;
+    position: absolute;
+    left:25%;
+    border-spacing: 0;
+    text-align: center;
+    
+}
+td{
+    border: 1px solid BLACK;
+}
+#main-nav{
+    width: 100%;
+    background-color: azure;
+    height: 30px;
+}
+
+#nav-items{
+    background-color: inherit;
+    font-size: 24px;
+    border: 1px solid rgb(121, 120, 134);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+
+.nav-item{  
+    display: inline;
+    float: left;
+    color: BLUE;
+    background-color: inherit;
+    margin-right: 20px;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    background-color: inherit;
+    font-style: italic;
+}
+#first-nav-item{
+    margin-left: 5px;
+}
+
+.nav-item > a:hover{
+    background-color: lightblue;
+    font-weight: bolder;
+}
+
+.card{
+    background-color: WHITE;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid BLACK;
+    position: absolute;
+    left: 10%;
+}
+#declension-card{
+    height: 80vh;
+}
+
+#lat-title{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+span#lat-desc{
+    text-align: center;
+    width: 100%;
+    color:crimson;
+    font-weight: bolder;
+    flex: 1;
+    background-color: WHITE;
+}
+span#lat-desc > i{
+    background-color: inherit;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid lightblue;
+}
+.lat-header{
+    text-align: center;
+    background-color: inherit;
+    text-decoration: underline;
+}
+#verb-header{
+    position: absolute;
+    left: 45%;
+    width: 10%;
+    top:52%;
+}
+#verb-desc{
+    position: absolute;
+    top: 62%;
+}
+#verb-table{
+    top:68%;
+}
+#homepage-card{
+    height: 80vh;
+}
+#home-title{
+    text-align: center;
+}
+.centering{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: inherit;
+}
+.display-image{
+    max-width: 400px;
+    background-color: inherit;
+}
+.inherit{
+    background-color: inherit;
+}
+#viet-bridge{
+    max-width: 450px;
+}
+.flex1{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    background-color: inherit;
+}
+.home-p{
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+#home-p1{
+    background-color: aqua;
+    border: 2px solid #0c5a9b;
+}
+#home-p2{
+    background-color: darkorange;
+    border: 2px solid darkred;
+}
+#home-p3{
+    background-color:greenyellow;
+    border: 2px solid goldenrod;
+}
+#home-h2{
+    color: blue;
+    background-color: deepskyblue;
+    margin: auto;
+    width: 40%;
+    border: 2px solid bisque;
+    border-radius: 10px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+#home-p4{
+    background-color:crimson;
+    border: 2px solid RED;
+    color: floralwhite;
+}
+#tier-h1{
+    color:rebeccapurple;
+}
+#tier-intro{
+    text-align: center;
+}
+.tier-h2{
+    text-align: center;
+}
