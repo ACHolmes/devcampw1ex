@@ -1,11 +1,12 @@
 import React from 'react'
 import TodoListComponent from '../../components/TodoListComponent'
-import CardComponent from  '../../components/CardComponent'
+import NavComponent from '../../components/NavComponent'
 import { Body, Card } from './styles'
 
 const MainPage = () => {
   return (
   <Body>
+    <NavComponent></NavComponent>
     <Card>
       <TodoListComponent/>
   </Card>

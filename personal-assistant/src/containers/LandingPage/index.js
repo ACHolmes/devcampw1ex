@@ -1,12 +1,18 @@
 import React from 'react'
-import CardComponent from  '../../components/CardComponent'
-import { Body, Card } from './styles'
+import NavComponent from '../../components/NavComponent'
+import { Body, Card, FlexContainer } from './styles'
+import image from '../../images/dontpanic.jpeg'
 
 const LandingPage = () => {
   return (
   <Body>
+    <NavComponent></NavComponent>
     <Card>
-      <div>words</div>
+    <FlexContainer>
+      <h1 style = {{textAlign: 'center', width: '100%'}}> A helpful reminder before you look at your todo list:</h1>
+      <img src={image} style = {{width: '650px', height: '650px', margin: 'auto', borderRadius: '75px', objectFit: 'cover'}}></img>
+    </FlexContainer>
+
     </Card>
   </Body>
   )

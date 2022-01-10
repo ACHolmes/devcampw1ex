@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { TodoList, TodoH2, TodoItem } from './styles'
+import { TodoList, TodoH2 } from './styles'
 import TodoReactiveComponent from '../TodoReactiveComponent'
 import AddTodoComponent from '../AddTodoComponent'
 

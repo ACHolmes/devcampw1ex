@@ -4,7 +4,7 @@ import { Card } from './styles'
 
 const CardComponent = ( input ) => {
     return(
-        <Card> {input()} </Card>
+        <Card> {input} </Card>
     )
 }
 

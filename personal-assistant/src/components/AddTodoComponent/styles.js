@@ -16,6 +16,10 @@ export const AddTodo = styled.div`
   }
   button{
     font-size: 28px;
-    width: 25%
+    width: 25%;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
   }
 `

@@ -3,7 +3,6 @@ import LandingPage from './containers/LandingPage'
 import MainPage from './containers/MainPage'
 // import COMPONENT from 'FILEPATH'
 import {
-  BrowserRouter,
   Switch,
   Route,
   useParams
@@ -52,8 +51,5 @@ const App = () => (
       <LandingPage/>
     </Route>
   </Switch>
-
-
 )
-
 export default App
