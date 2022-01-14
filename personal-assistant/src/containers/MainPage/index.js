@@ -9,6 +9,7 @@ const MainPage = () => {
     <NavComponent></NavComponent>
     <Card>
       <TodoListComponent/>
+      
   </Card>
   </Body>
   )
