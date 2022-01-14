@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { TodoList, TodoH2 } from './styles'
+import { TodoList, TodoH2, FunctionalComponents } from './styles'
 import TodoReactiveComponent from '../TodoReactiveComponent'
 import AddTodoComponent from '../AddTodoComponent'
 import FilterTodoComponent from '../FilterTodoComponent'
@@ -17,8 +17,11 @@ const TodoListComponent = () => {
             <TodoH2>Your Todo List</TodoH2>
             <TodoReactiveComponent todos = {state} updateTodos = { setState } filter = {filter}/>
         </TodoList>
-        <AddTodoComponent todos = {state} setTodos = {setState} counter = {counter} setCounter = {updateCounter} value = {value} setValue = {setValue} ></AddTodoComponent>
-        <FilterTodoComponent filter = {filter} setFilter = {setFilter}></FilterTodoComponent>
+        <FunctionalComponents>
+            <AddTodoComponent todos = {state} setTodos = {setState} counter = {counter} setCounter = {updateCounter} value = {value} setValue = {setValue} ></AddTodoComponent>
+            <FilterTodoComponent filter = {filter} setFilter = {setFilter}></FilterTodoComponent>
+        </FunctionalComponents>
+
     </>)
 }
 
