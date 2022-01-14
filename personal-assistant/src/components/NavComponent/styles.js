@@ -28,10 +28,21 @@ export const NavItems = styled.ul`
 `
 
 export const NavItem = styled.li `
-    flex: 1;
-    color: BLUE;
-    background-color: inherit;
-    text-decoration: none;
     list-style-type: none;
+    text-decoration: none;
+    flex: 1;
+    a{
+        border: 1px solid black;
+        padding: 10px 30px;
+        border-radius: 10px;
+        color: white;
+        background-color: blue;
+        transition: color 1s ease;
+        transition: background-color 1s ease;
+        &:hover{
+            background-color: lightskyblue;
+            color: black;
+        }
+    }
 
-`  
+` 

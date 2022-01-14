@@ -16,7 +16,7 @@ export const TodoItem = styled.li`
   box-shadow: 1px grey;
   padding: 10px 20px;
   width: 100%;
-  font-size: 24px;
+  font-size: 32px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   cursor: pointer;
   text-decoration: none;
